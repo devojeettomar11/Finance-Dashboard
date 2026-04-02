@@ -1,12 +1,5 @@
 // ─────────────────────────────────────────────────────────────
-//  Navbar.jsx  —  Top navigation bar (Tailwind CSS)
-//
-//  Features:
-//    • Brand logo + name
-//    • Desktop nav links with active state
-//    • Role switcher (Admin ↔ Viewer) — RBAC demo
-//    • Dark mode toggle
-//    • Mobile hamburger drawer
+//  Navbar.jsx  —  Top navigation bar (Tailwind CSS) 
 // ─────────────────────────────────────────────────────────────
 
 import { useState } from "react";

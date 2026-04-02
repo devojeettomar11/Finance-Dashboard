@@ -2,12 +2,12 @@
 //  TransactionList.jsx  —  Full transactions page (Tailwind)
 //
 //  Features:
-//    • Search, type filter, category filter, sort
-//    • Admin: Add / Edit / Delete
-//    • Viewer: read-only badge
-//    • CSV + JSON export (bonus)
-//    • Empty state
-//    • Transactions persisted in localStorage via context
+//     Search, type filter, category filter, sort
+//     Admin: Add / Edit / Delete
+//     Viewer: read-only badge
+//     CSV + JSON export (bonus)
+//     Empty state
+//     Transactions persisted in localStorage via context
 // ─────────────────────────────────────────────────────────────
 
 import { useState } from "react";

@@ -1,9 +1,9 @@
 // ─────────────────────────────────────────────────────────────
 //  FinanceContext.jsx  —  Central state for all financial data
 //
-//  ✅ Transactions are persisted in localStorage — survive refresh
-//  ✅ Filters state managed centrally
-//  ✅ All CRUD operations (add / edit / delete) handled here
+//  Transactions are persisted in localStorage — survive refresh
+//  Filters state managed centrally
+//  All CRUD operations (add / edit / delete) handled here
 // ─────────────────────────────────────────────────────────────
 
 import { createContext, useContext, useState, useMemo, useCallback, useEffect } from "react";

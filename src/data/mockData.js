@@ -1,5 +1,5 @@
 // ─────────────────────────────────────────────────────────────
-//  mockData.js  —  Static financial data (no backend needed)
+//  mockData.js  —  Static financial data
 //  All amounts in INR (₹). April 2026 is the "current" month.
 // ─────────────────────────────────────────────────────────────
 

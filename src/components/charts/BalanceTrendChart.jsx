@@ -1,12 +1,3 @@
-// ─────────────────────────────────────────────────────────────
-//  BalanceTrendChart.jsx  —  6-month area chart (Recharts)
-//  Note: <defs>, <linearGradient>, <stop> are SVG JSX elements,
-//  NOT recharts exports — do not import them from recharts.
-//
-//  Fix: domain={[0, 'auto']} on YAxis forces the chart to start
-//  from 0, removing the empty bottom gap Recharts adds by default.
-// ─────────────────────────────────────────────────────────────
-
 import {
   AreaChart, Area, XAxis, YAxis, CartesianGrid,
   Tooltip, ResponsiveContainer,
