@@ -1,0 +1,24 @@
+/* Tailwind base layers */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ── Base font ── */
+@layer base {
+  html { font-family: 'Inter', sans-serif; }
+
+  /* Smooth dark/light transitions */
+  body {
+    @apply bg-gray-50 text-gray-900 transition-colors duration-300;
+  }
+  .dark body {
+    @apply bg-dark-900 text-gray-100;
+  }
+}
+
+/* ── Custom scrollbar ── */
+@layer utilities {
+  .scrollbar-thin::-webkit-scrollbar       { width: 4px; height: 4px; }
+  .scrollbar-thin::-webkit-scrollbar-track { @apply bg-transparent; }
+  .scrollbar-thin::-webkit-scrollbar-thumb { @apply bg-gray-300 dark:bg-gray-600 rounded-full; }
+}
