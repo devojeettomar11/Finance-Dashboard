@@ -1,10 +1,5 @@
 // ─────────────────────────────────────────────────────────────
 //  BalanceTrendChart.jsx  —  6-month area chart (Recharts)
-//
-//  Fixes applied:
-//    • domain={[0, 'auto']} — Y-axis starts at 0
-//    • baseValue={0} on <Area> — fill goes all the way to bottom
-//    • height increased to 220 for better visual proportion
 // ─────────────────────────────────────────────────────────────
 
 import {
